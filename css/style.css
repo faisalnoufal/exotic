@@ -55,7 +55,7 @@ body {
 
 ul li {
   list-style: none;
-  margin: 25px;
+  margin: 15px;
 }
 
 ul li a {
@@ -64,9 +64,9 @@ ul li a {
   text-align: center;
   color: rgb(145, 140, 140);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 50px;
+  height: 50px;
+  line-height: 51px;
   background: #333;
   transition: 0.5s;
 }
@@ -95,7 +95,8 @@ ul li a:hover {
   box-shadow: 0 0 5px gold;
 }
 .logo img {
-  width: 450px;
+  max-width: 100%;
+  /* border: 1px solid red; */
 }
 .exotic {
   background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
