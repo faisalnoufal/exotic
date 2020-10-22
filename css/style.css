@@ -47,7 +47,7 @@ body {
   margin-top: 25px;
   text-decoration: none;
   font-size: 1.5rem;
-  background: -webkit-linear-gradient(#ffd700, rgb(71, 65, 8));
+  background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Lato", sans-serif;
@@ -98,7 +98,9 @@ ul li a:hover {
   width: 450px;
 }
 .exotic {
-  color: gold;
+  background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 a {
   text-decoration-line: none;
