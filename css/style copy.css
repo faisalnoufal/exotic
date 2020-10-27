@@ -39,6 +39,7 @@ body {
       padding: 5px; */
   /* background-color: #2cfa8f; */
 }
+<<<<<<< HEAD
 .container2 {
   margin-top: -15vh;
   min-height: 85vh;
@@ -52,6 +53,8 @@ body {
       padding: 5px; */
   /* background-color: #2cfa8f; */
 }
+=======
+>>>>>>> parent of 9702989... test facebook plugin
 .social ul {
   display: flex;
 }
