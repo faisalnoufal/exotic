@@ -42,6 +42,7 @@ body {
 .container2 {
   margin-top: -15vh;
   min-height: 85vh;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
