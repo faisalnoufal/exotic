@@ -1,0 +1,186 @@
+      @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+      :root {
+        --primary-color: #3a4052;
+        --bg-color: #000;
+        --text-1: #fff;
+        --text-p: gold;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        font-size: 1.5rem;
+        /* position the container in center */
+        min-height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--text-1);
+        font-family: "Caveat", cursive;
+      }
+
+
+      .bg-video-wrap {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        no-repeat center center/cover;
+      }
+
+      video {
+        min-width: 100%;
+        min-height: 100vh;
+        z-index: 1;
+      }
+
+      .overlay {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(45deg,
+            rgba(0, 0, 0, 0.3) 50%,
+            rgba(0, 0, 0, 0.7) 50%);
+        background-size: 5px 5px;
+        z-index: 2;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 3;
+        max-width: 400px;
+        width: 100%;
+        height: 50px;
+      }
+
+      .logo img {
+        max-width: 100%;
+      }
+
+      .social ul {
+        display: flex;
+      }
+
+      .tel {
+        margin-top: 25px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Lato", sans-serif;
+      }
+
+      ul li {
+        list-style: none;
+        margin: 15px;
+      }
+
+      ul li a {
+        display: block;
+        position: relative;
+        text-align: center;
+        color: rgb(145, 140, 140);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        line-height: 51px;
+        background: #333;
+        transition: 0.5s;
+      }
+
+      ul li a:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: gold;
+        transition: 0.5s;
+        transform: scale(0.9);
+        z-index: -1;
+      }
+
+      ul li a:hover:before {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px gold;
+      }
+
+      ul li a:hover {
+        color: gold;
+        box-shadow: 0 0 5px gold;
+      }
+
+      .exotic {
+        background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      a {
+        text-decoration-line: none;
+      }
+
+      .webadder {
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  text-decoration: none !important;
+  color: black;
+  font-size: 10px;
+  border-radius: 2px;
+  z-index: 105;
+  background-image: linear-gradient(
+    to right,
+    #9966ff 0%,
+    #3399ff 51%,
+    #669999 100%
+  );
+  right: 0;
+  bottom: 0;
+}
+
+.webadder:hover {
+  text-decoration: none !important;
+  color: white;
+  background-color: darkgrey;
+  right: 0.5px;
+  bottom: 0.5px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+      @media (pointer: coarse) and (hover: none) {
+        header {
+          background: url("/images/blackbg.jpg") black no-repeat center center scroll;
+        }
+
+        header video {
+          display: none;
+        }
+
+      }
+
+      
