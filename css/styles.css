@@ -154,3 +154,30 @@
           display: none;
         }
       }
+
+      .webadder {
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  text-decoration: none !important;
+  color: black;
+  font-size: 10px;
+  border-radius: 2px;
+  z-index: 105;
+  background-image: linear-gradient(
+    to right,
+    #9966ff 0%,
+    #3399ff 51%,
+    #669999 100%
+  );
+  right: 0;
+  bottom: 0;
+}
+
+.webadder:hover {
+  text-decoration: none !important;
+  color: white;
+  background-color: darkgrey;
+  right: 0.5px;
+  bottom: 0.5px;
+  box-shadow: 1px 1px 1px 1px black;
+}
