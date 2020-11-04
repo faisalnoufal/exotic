@@ -147,8 +147,7 @@
 
       @media (pointer: coarse) and (hover: none) {
         header {
-          background: black;
-          /* background: url("/images/bgbetta.jpg") black no-repeat center center scroll; */
+          background: url("/images/blackbg.jpg") black no-repeat center center scroll;
         }
 
         header video {
