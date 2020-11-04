@@ -1,8 +1,32 @@
- * {
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --primary-color: #3a4052;
+  --bg-color: #000;
+  --text-1: #fff;
+  --text-p: gold;
+}
+
+* {
           box-sizing: border-box;
           margin: 0;
           padding: 0;
         }
+
+        body {
+  background-color: var(--bg-color);
+  font-size: 1.5rem;
+  /* position the container in center */
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-1);
+  font-family: "Caveat", cursive;
+}
+
 
         .bg-video-wrap {
           position: relative;
@@ -110,3 +134,12 @@
           color: gold;
           box-shadow: 0 0 5px gold;
         }
+
+        .exotic {
+  background: -webkit-linear-gradient(#ffd700, rgb(124, 112, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+  text-decoration-line: none;
+}
